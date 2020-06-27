@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SuperShoes Order</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">.
+	</head>
+	<style>
+	 h2, h3 {
+      color: red;
+  }
+	</style>
+	<body>
+		<h1>SuperShoes Order Form</h1>
+			<form>
+			
+			<h3>Please Enter Your Name</h3>
+				
+				<div>
+					<input name="name" type="text" placeholder="First Name">
+					<input name="name" type="text" placeholder="Last Name">
+				</div>
+				
+				<h3>Please Pick Your Local Store</h3>
+				
+				<div>
+					<input name="location" list="locations" placeholder="Location">
+					<datalist id="locations">
+						<option value="Chicago, IL">
+						<option value="Beverly Hills, CA">
+						<option value="Los Angeles, CA">
+						<option value="Woodbridge, NJ">
+						<option value="Boston, MA">
+						<option value="Atlanta, GA">
+						<option value="Houston, TX">
+						<option value="Manhattan, New York, NY">
+						<option value="Baltimore, MD">
+						<option value="Columbus, OH">
+				</div>
+				
+				<h3>Please Pick The Shoes You Want</h3>
+				
+				<div>
+					<input name="shoe" list="shoes" placeholder="Select Shoe">
+					<datalist id="shoes">
+						<option value="Nike Air Max 270">
+						<option value="Nike Air Zoom Vomero 14">
+						<option value="Adidas NMD_R1 Shoes">
+						<option value="The Adidas Ultra Boost 20">
+						<option value="Adidas Yeezy Powerphase">
+						<option value="Air Jordan 1 Retro Chicago">
+						<option value="Air Jordan 5 Fire Red Retro OG White">
+						<option value="Slip-on™ Core Vans Shoes">
+						<option value="Under Armour Curry 7">
+						<option value="Under Armour UA HOVR™ Velociti 3">
+				</div>
+				
+				<h3>Select Your Color</h3>
+				
+				<div>
+					<input name="color" list="colors" placeholder="Color">
+					<datalist id="colors">
+						<option value="Red">
+						<option value="Orange">
+						<option value="Yellow">
+						<option value="Green">
+						<option value="Blue">
+						<option value="Black">
+				</div>
+				
+				<h3>Please Pick Your Size</h3>
+				
+				<div>
+					<input name="size" list="sizes" placeholder="Size">
+					<datalist id="sizes">
+						<option value="1">
+						<option value="2">
+						<option value="3">
+						<option value="4">
+						<option value="5">
+						<option value="6">
+						<option value="7">
+						<option value="8">
+						<option value="9">
+						<option value="10">
+						<option value="11">
+						<option value="12">
+				</div>
+				
+				<h3>Select Payment Type</h3>
+				
+				<div>
+					<input name="card" type="radio" value="visa"> Visa
+					<input name="card" type="radio" value="mastercard">Mastercard
+					<input name="card" type="radio" value="discover">Discover
+					<input name="card" type="radio" value="debit">Debit
+				</div>
+				
+				<h3>Please Enter Your Card Number</h3>
+				
+				<div>
+					<input name="name" type="password" placeholder="Card Number">
+				</div>
+				<input type="submit" value="Submit">
+		</form> 
+	</body>
+</html>
